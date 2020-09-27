@@ -8,6 +8,11 @@
     src: url(fonts/Futura-MedObl.ttf);
 }
 
+@font-face {
+    font-family: "Futura-Boo";
+    src: url(fonts/Futura-Boo.ttf);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -26,8 +31,8 @@ a {
     color: #fff;
 }
 
-img {
-    width: 300px;
+a:hover{
+    box-shadow: 0 0 15px #ccc;
 }
 
 .main-visual {
@@ -53,6 +58,14 @@ img {
     display: inline-block;
     margin: 13px;
     font-family: "Futura-Med";
+}
+
+.main-visual ul li a{
+    transition:0.5s;
+}
+
+.main-visual ul li a:hover{
+    color: #3d5cdb;
 }
 
 
@@ -122,6 +135,7 @@ img {
     letter-spacing: -1px;
     font-size: 15px;
     margin: 0 auto 30px;
+    color: #333;
 }
 
 #introduction a {
@@ -129,21 +143,30 @@ img {
     background-color: #ffbf00;
     border: 0px solid #ffbf00;
     border-radius: 12px;
-    padding: 10px 45px;
+    padding: 5px 45px;
     font-size: 20px;
     font-weight: bolder;
     margin: 0 auto;
     display: block;
 }
 
+#introduction .right a{
+    background-color: #3d5cdb;
+    border: 0px solid #3d5cdb;
+}
+
 #particles-js{
     background-color: #bad5f5;
+    position: relative;
 }
 
 #courses{
-    background-color: rgba(255,0,0,1);
+    background-color: rgba(255,0,0,0);
+    position: absolute;
+    
+    top: 0;
+    left: 0;
 }
-
 
 #courses ul {
     display: flex;
@@ -186,6 +209,7 @@ img {
     font-weight: 600;
     display: block;
     margin: 0 auto;
+    color: #333;
 }
 
 #courses a {
@@ -226,3 +250,30 @@ img {
 #go a {
     background-color: #73cedd;
 }
+
+#images img{
+    width:105%;
+}
+
+#images .slider{
+    margin: 0 90px 140px;
+}
+
+#access h1{
+    margin-bottom: 45px;
+}
+
+iframe{
+    display: block;
+    margin: 0 auto 60px;
+}
+
+footer{
+    font-family: "Futura-Med";
+    font-size: 9px;
+    transform: scale(0.95,1);
+    font-kerning: none;
+    text-align: center;
+    color: #3d5cdb;
+}
+
