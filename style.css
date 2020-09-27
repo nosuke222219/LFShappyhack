@@ -82,6 +82,7 @@ img {
     font-family: "Futura-Med";
     color: #3d5cdb;
     font-size: 60px;
+    font-weight: 100;
     text-align: center;
     margin-bottom: 55px;
     margin-top: 45px;
@@ -135,11 +136,12 @@ img {
     display: block;
 }
 
-#particles-js {
+#courses{
     background-color: #bad5f5;
 }
 
-#particles-js ul {
+
+#courses ul {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -148,12 +150,12 @@ img {
     justify-content: center;
 }
 
-#particles-js li {
+#courses li {
     list-style: none;
     margin: 15px 10px;
 }
 
-#particles-js .element {
+#courses .element {
     width: 240px;
     height: 340px;
     background-color: #fff;
@@ -170,11 +172,11 @@ img {
     vertical-align: middle;
 }
 
-#particles-js img {
+#courses img {
     width: 100px;
 }
 
-#particles-js h2 {
+#courses h2 {
     text-align: center;
     font-size: 15px;
     font-weight: 600;
@@ -182,7 +184,7 @@ img {
     margin: 0 auto;
 }
 
-#particles-js a {
+#courses a {
     box-sizing: border-box;
     width: 170px;
     font-size: 12px;
