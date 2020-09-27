@@ -1,4 +1,4 @@
-particlesJS("#particles-js",{
+particlesJS("#courses",{
   "particles":{
  
 //--シェイプの設定----------
