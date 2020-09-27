@@ -136,8 +136,12 @@ img {
     display: block;
 }
 
-#courses{
+#particles-js{
     background-color: #bad5f5;
+}
+
+#courses{
+    background-color: rgba(255,0,0,1);
 }
 
 

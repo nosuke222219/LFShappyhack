@@ -3,10 +3,10 @@ particlesJS("courses",{
  
 //--シェイプの設定----------
       "number":{
-        "value":80, //シェイプの数
+        "value":10, //シェイプの数
         "density":{
           "enable":true, //シェイプの密集度を変更するか否か
-          "value_area":200 //シェイプの密集度
+          "value_area":100 //シェイプの密集度
         }
       },
       "shape":{
@@ -18,20 +18,20 @@ particlesJS("courses",{
         
       },
       "color":{
-        "value":"#000000" //シェイプの色
+        "value":"#ffffff" //シェイプの色
       },
       "opacity":{
         "value":1, //シェイプの透明度
         "random":false, //シェイプの透明度をランダムにするか否か
         "anim":{
           "enable":false, //シェイプの透明度をアニメーションさせるか否か
-          "speed":10, //アニメーションのスピード
+          "speed":3, //アニメーションのスピード
           "opacity_min":0.1, //透明度の最小値
           "sync":false //全てのシェイプを同時にアニメーションさせるか否か
         }
       },
       "size":{
-        "value":5, //シェイプの大きさ
+        "value":3, //シェイプの大きさ
         "random":true, //シェイプの大きさをランダムにするか否か
         "anim":{
           "enable":false, //シェイプの大きさをアニメーションさせるか否か
@@ -69,14 +69,14 @@ particlesJS("courses",{
 
 //--マウスオーバー時の処理----------
         "onhover":{
-          "enable":true, //マウスオーバーが有効か否か
+          "enable":false, //マウスオーバーが有効か否か
           "mode":"repulse" //マウスオーバー時に発動する動き(下記modes内のgrab、repulse、bubbleより選択)
         },
 //--------------------
 
 //--クリック時の処理----------
         "onclick":{
-          "enable":true, //クリックが有効か否か
+          "enable":false, //クリックが有効か否か
           "mode":"push" //クリック時に発動する動き(下記modes内のgrab、repulse、bubble、push、removeより選択)
         },
 //--------------------
