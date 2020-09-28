@@ -18,7 +18,7 @@ particlesJS("particles-js",{
         
       },
       "color":{
-        "value":"#ffffff" //シェイプの色
+        "value":"#fff" //シェイプの色
       },
       "opacity":{
         "value":1, //シェイプの透明度
