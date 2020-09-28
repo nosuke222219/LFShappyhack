@@ -160,6 +160,7 @@ a:hover{
 }
 
 #courses{
+    margin: 45px 0;
     background-color: rgba(255,0,0,0);
     z-index: 1;
 }
