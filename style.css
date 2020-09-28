@@ -157,12 +157,10 @@ a:hover{
 
 #particles-js{
     background-color: #bad5f5;
-    position: relative;
 }
 
 #courses{
     background-color: rgba(255,0,0,0);
-    position: absolute;
     z-index: 1;
 }
 
