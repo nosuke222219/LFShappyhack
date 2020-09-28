@@ -31,7 +31,7 @@ a {
     color: #fff;
 }
 
-a:hover{
+a:hover {
     box-shadow: 0 0 15px #ccc;
 }
 
@@ -60,12 +60,13 @@ a:hover{
     font-family: "Futura-Med";
 }
 
-.main-visual ul li a{
-    transition:0.5s;
+.main-visual ul li a {
+    transition: 0.5s;
 }
 
-.main-visual ul li a:hover{
+.main-visual ul li a:hover {
     color: #3d5cdb;
+    box-shadow: none;
 }
 
 
@@ -150,19 +151,19 @@ a:hover{
     display: block;
 }
 
-#introduction .right a{
+#introduction .right a {
     background-color: #3d5cdb;
     border: 0px solid #3d5cdb;
 }
 
-#courses{
-    background-color: rgba(0,0,0,0);
+#courses {
+    background-color: rgba(0, 0, 0, 0);
     position: relative;
     padding: 45px;
 }
 
-#particles-js{
-    background-color: rgba(186,213,245,0.6);
+#particles-js {
+    background-color: rgba(186, 213, 245, 0.6);
     position: absolute;
     top: 0;
     bottom: 0;
@@ -171,7 +172,7 @@ a:hover{
     z-index: -1;
 }
 
-#courses h1{
+#courses h1 {
     margin-top: 0;
     margin-bottom: 40px;
 }
@@ -198,7 +199,7 @@ a:hover{
     border-radius: 12px;
 }
 
- .img {
+.img {
     width: 240px;
     height: 210px;
     margin-bottom: -10px;
@@ -259,29 +260,69 @@ a:hover{
     background-color: #73cedd;
 }
 
-#images img{
-    width:105%;
+#images img {
+    width: 105%;
 }
 
-#images .slider{
+#images .slider {
     margin: 0 90px 140px;
 }
 
-#access h1{
+#access h1 {
     margin-bottom: 45px;
 }
 
-iframe{
+iframe {
     display: block;
     margin: 0 auto 60px;
 }
 
-footer{
+footer {
     font-family: "Futura-Med";
     font-size: 9px;
-    transform: scale(0.95,1);
+    transform: scale(0.95, 1);
     font-kerning: none;
     text-align: center;
     color: #3d5cdb;
 }
 
+.fuwatAnime {
+    -webkit-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1.5s;
+    -ms-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-name: fuwatAnime;
+    -ms-animation-name: fuwatAnime;
+    animation-name: fuwatAnime;
+    visibility: visible !important;
+}
+
+@-webkit-keyframes fuwatAnime {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+
+@keyframes fuwatAnime {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
