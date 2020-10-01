@@ -9,6 +9,8 @@
     <script src="jquery-bgswitcher-master/jquery.bgswitcher.js"></script>
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+    <link rel="shortcut icon" href="./images/favicon.ico">
 </head>
 
 <body>
@@ -156,11 +158,11 @@
     </script>
     <script type="text/javascript">
         $(document).ready(function() {
-            $('.content').css('visibility', 'hidden');
+            $('.contents').css('visibility', 'hidden');
             $(window).scroll(function() {
                 var windowHeight = $(window).height(),
                     topWindow = $(window).scrollTop();
-                $('.content').each(function() {
+                $('.contents').each(function() {
                     var objectPosition = $(this).offset().top;
                     if (topWindow > objectPosition - windowHeight + 200) {
                         $(this).addClass("fuwatAnime");
