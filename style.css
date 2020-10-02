@@ -421,7 +421,7 @@ footer {
     #courses {
         background-color: rgba(0, 0, 0, 0);
         position: relative;
-        padding: 5%;
+        padding: 0;
     }
 
     #courses h1 {
@@ -444,16 +444,16 @@ footer {
     }
 
     #courses .element {
-        width: 140px;
-        height: 190px;
+        width: 150px;
+        height: 200px;
         background-color: #fff;
         border: 0px solid #fff;
         border-radius: 12px;
     }
 
     .img {
-        width: 140px;
-        height: 120px;
+        width: 150px;
+        height: 110px;
         margin-bottom: -10px;
         display: table-cell;
         text-align: center;
@@ -461,7 +461,7 @@ footer {
     }
 
     #courses img {
-        width: 40px;
+        width: 50px;
     }
 
     #courses h2 {
