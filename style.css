@@ -58,11 +58,11 @@ a:hover {
     font-size: 30px;
     display: inline-block;
     margin: 13px;
-    font-family: "Futura-Med";
 }
 
 .main-visual ul li a {
     transition: 0.5s;
+    font-family: "Futura-Med";
 }
 
 .main-visual ul li a:hover {
