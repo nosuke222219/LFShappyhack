@@ -403,10 +403,11 @@ footer {
     }
 
     #introduction a {
-        width: 60px;
+        width: 50px;
         border-radius: 9px;
         padding: 5px 35px;
         font-size: 15px;
+        letter-spacing: -1px;
         font-weight: bolder;
         margin: 0 auto;
         display: block;
