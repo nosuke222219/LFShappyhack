@@ -16,6 +16,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', sans-serif;
 }
 
 .clearfix:after {
@@ -354,10 +355,10 @@ footer {
         width: 100%;
         margin: 0px 50% 20px;
     }
-    
-    .orderchange{
+
+    .orderchange {
         display: flex;
-        flex-wrap:wrap;
+        flex-wrap: wrap;
     }
 
     #introduction img {
@@ -385,7 +386,7 @@ footer {
     #introduction p {
         width: 90%;
         line-height: 20px;
-        letter-spacing: -1px;
+        letter-spacing: 0px;
         font-size: 10px;
         margin: 0 auto 30px;
         color: #333;
