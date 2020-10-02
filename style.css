@@ -359,6 +359,7 @@ footer {
     .orderchange {
         display: flex;
         flex-wrap: wrap;
+        height: auto;
     }
 
     #introduction img {
@@ -370,6 +371,7 @@ footer {
         -ms-order: 1;
         -o-order: 1;
         order: 1;
+        align-self: flex-start;
     }
 
     .sentence {
@@ -404,7 +406,7 @@ footer {
         width: 60px;
         border-radius: 9px;
         padding: 5px 35px;
-        font-size: 10px;
+        font-size: 15px;
         font-weight: bolder;
         margin: 0 auto;
         display: block;
@@ -522,6 +524,8 @@ footer {
     }
 
     iframe {
+        width:100%;
+        height: 300px;
         display: block;
         margin: 0 auto 60px;
     }
@@ -529,7 +533,7 @@ footer {
     footer {
         font-family: "Futura-Med";
         font-size: 9px;
-        transform: scale(0.95, 1);
+        transform: scale(0.72, 0.8);
         font-kerning: none;
         text-align: center;
         color: #3d5cdb;
